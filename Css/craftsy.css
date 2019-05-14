@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+  body{
+    background-image: url(../img/bg-2.png);
+    width:1140px;
+    margin: 10px auto;
+  }
+
+header{
+  background-color:tomato;
+  color:white;
+  overflow: hidden;
+}
+
+div.logo{
+  float: left;
+  margin-left: 15px;
+  padding-top:20px;
+  padding-bottom:10px;
+  padding-right:20px;
+  padding-left:10px;
+}
+
+div.categorias{
+float: left;
+color: white
+padding-top:25px;
+padding-left:25px;
+}
+
+div.login{
+  float:right;
+  color:white;
+  padding-top:25px;
+  padding-right:20px;
+}
+
+main{
+  overflow: hidden;
+}
+
+h2{
+  font-size: 18px;
+}
+
+
+div.cuerpo{
+  margin-top: 30px;
+  background-color: white;
+  width: 800px;
+  overflow:hidden;
+}
+
+
+article.productos{
+  width: 40%;
+margin-left: 10px;
+margin-top: 10px;
+margin-right: 5px;
+float: left;
+box-sizing:border-box;
+}
+
+aside{
+  background-color: white;
+  width:320px;
+  float: left;
+}
+
+ul{
+  list-style: none;
+}
